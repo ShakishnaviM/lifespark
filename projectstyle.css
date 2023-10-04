@@ -172,9 +172,7 @@ li{
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+
 .slideshow-container .mySlides .text #textstyle{
 	font-family:'Times New Roman';
 	font-size:100px;
@@ -514,7 +512,7 @@ input[type=submit] {
 	font-size:20px;
 	font-family: 'Poppins', sans-serif;
 }
-.wrapper {
+.autoincrease {
   position: absolute;
   width: 80vw;
   transform:  translate(-50%, -50%);
@@ -583,7 +581,7 @@ span.ht {
 }
 
 @media screen and (max-width:1024px) {
-  .wrapper {
+  .autoincrease {
     width: 85vw;
   }
   .tips {
@@ -591,10 +589,12 @@ span.ht {
     width: 26vmin;
     font-size: 12px;
   }
+  .item-1 {font-size: 10vw;}
+
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper{
+  .autoincrease{
     width: 90vw;
     flex-wrap: wrap;
     gap: 30px;
@@ -605,9 +605,11 @@ span.ht {
     height: 30vmin;
     font-size: 13px;
   }
+  .item-1 {font-size: 10vw;}
+
 }
 @media screen and (max-width: 480px) {
-  .wrapper{
+  .autoincrease{
     gap: 15px;
   }
 
@@ -616,6 +618,8 @@ span.ht {
     height: 25vmin;
     font-size: 8px;
   }
+  .item-1 {font-size: 10vw;}
+
 }
 .drop ,
 .drop1{
@@ -687,5 +691,5 @@ span.ht {
     width: 100%;
     text-align: left;
   }
+ 
 }
-
