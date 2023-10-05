@@ -211,7 +211,9 @@ li{
 }
 .tableitems .title1{
 	font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
+
 .tableitems .no1,
 .tableitems .no2{
 	font-size:15px;
@@ -609,6 +611,74 @@ span.ht {
 
 }
 @media screen and (max-width: 480px) {
+  .bg {
+    width: 100%;
+  }
+
+  .logo {
+    padding-top: 85px;
+    font-size: 40px;
+  }
+
+  .lg {
+    visibility: hidden;
+  }
+  .two {
+    padding-bottom: 40px;
+  }
+
+  .hover{
+    visibility: hidden;
+  }
+
+  .slideshow-container {
+    height: 10%;
+  }
+
+  .email, .call , .twitter, .facebook{
+    visibility: hidden;
+  }
+
+  .text {
+    color:white;
+    font-size: 4px;
+    position: absolute;
+    bottom: 8px;
+    top: 15px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .slideshow-container .mySlides .text #textstyle {
+    font-size: 5vw;
+  }
+
+  .WCU {
+    text-align: center;
+  }
+
+  .slide-font {
+    font-size: 5vw;
+    color:white;
+    position: absolute;
+    visibility: visible;
+    bottom: 8px;
+    top: 105px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
   .autoincrease{
     gap: 15px;
   }
