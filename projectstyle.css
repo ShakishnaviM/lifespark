@@ -325,6 +325,7 @@ h2{
 	background:black;
 	color:white;
 	padding: 5% 5% 5% 5%;
+  width: 100%;
 }
 .ftable th{
 	font-size:20px;
@@ -591,8 +592,86 @@ span.ht {
     width: 26vmin;
     font-size: 12px;
   }
-  .item-1 {font-size: 10vw;}
+  .bg{
+    width:100%;
+  }
+  .bg {
+    width: 100%;
+  }
 
+  .logo {
+    padding-top: 85px;
+    font-size: 40px;
+  }
+
+  .lg {
+    visibility: hidden;
+  }
+  .two {
+    padding-bottom: 40px;
+  }
+
+  .hover{
+    visibility: hidden;
+  }
+
+  .slideshow-container {
+    height: 10%;
+  }
+
+  .email, .call , .twitter, .facebook{
+    visibility: hidden;
+  }
+
+  .text {
+    color:white;
+    font-size: 4px;
+    position: absolute;
+    bottom: 8px;
+    top: 15px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .slideshow-container .mySlides .text #textstyle {
+    font-size: 5vw;
+  }
+
+  .WCU {
+    text-align: center;
+  }
+
+  .slide-font {
+    font-size: 5vw;
+    color:white;
+    position: absolute;
+    visibility: visible;
+    bottom: 8px;
+    top: 105px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .autoincrease{
+    gap: 15px;
+  }
+
+  .tips {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -607,7 +686,86 @@ span.ht {
     height: 30vmin;
     font-size: 13px;
   }
-  .item-1 {font-size: 10vw;}
+  .bg{
+    width:100%;
+  }
+  .bg {
+    width: 100%;
+  }
+
+  .logo {
+    padding-top: 85px;
+    font-size: 40px;
+  }
+
+  .lg {
+    visibility: hidden;
+  }
+  .two {
+    padding-bottom: 40px;
+  }
+
+  .hover{
+    visibility: hidden;
+  }
+
+  .slideshow-container {
+    height: 10%;
+  }
+
+  .email, .call , .twitter, .facebook{
+    visibility: hidden;
+  }
+
+  .text {
+    color:white;
+    font-size: 4px;
+    position: absolute;
+    bottom: 8px;
+    top: 15px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .slideshow-container .mySlides .text #textstyle {
+    font-size: 5vw;
+  }
+
+  .WCU {
+    text-align: center;
+  }
+
+  .slide-font {
+    font-size: 5vw;
+    color:white;
+    position: absolute;
+    visibility: visible;
+    bottom: 8px;
+    top: 105px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .autoincrease{
+    gap: 15px;
+  }
+
+  .tips {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
 
 }
 @media screen and (max-width: 480px) {
@@ -688,7 +846,6 @@ span.ht {
     height: 25vmin;
     font-size: 8px;
   }
-  .item-1 {font-size: 10vw;}
 
 }
 .drop ,
@@ -749,7 +906,7 @@ span.ht {
   .dropdown .dropbtn {
     display: none;
   }
-  
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -761,5 +918,85 @@ span.ht {
     width: 100%;
     text-align: left;
   }
- 
+  .bg{
+    width: 100%;
+  }
+  .bg {
+    width: 100%;
+  }
+
+  .logo {
+    padding-top: 85px;
+    font-size: 40px;
+  }
+
+  .lg {
+    visibility: hidden;
+  }
+  .two {
+    padding-bottom: 40px;
+  }
+
+  .hover{
+    visibility: hidden;
+  }
+
+  .slideshow-container {
+    height: 10%;
+  }
+
+  .email, .call , .twitter, .facebook{
+    visibility: hidden;
+  }
+
+  .text {
+    color:white;
+    font-size: 4px;
+    position: absolute;
+    bottom: 8px;
+    top: 15px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .slideshow-container .mySlides .text #textstyle {
+    font-size: 5vw;
+  }
+
+  .WCU {
+    text-align: center;
+  }
+
+  .slide-font {
+    font-size: 5vw;
+    color:white;
+    position: absolute;
+    visibility: visible;
+    bottom: 8px;
+    top: 105px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    font-weight:bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Times New Roman';
+  }
+
+  .autoincrease{
+    gap: 15px;
+  }
+
+  .tips {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
+
 }
